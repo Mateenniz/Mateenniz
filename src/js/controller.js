@@ -175,5 +175,5 @@ btnDelete.addEventListener("click", function (e) {
 
 btnEqual.addEventListener("click", function (e) {
   e.preventDefault();
-  screen.value = eval(screen.value);
+  if (screen.value !== "") screen.value = eval(screen.value);
 });
