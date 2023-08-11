@@ -99,7 +99,8 @@ btnPlus.addEventListener("click", function (e) {
     screen.value.slice(-1) !== "%" &&
     screen.value.slice(-1) !== "-" &&
     screen.value.slice(-1) !== "*" &&
-    screen.value.slice(-1) !== "/"
+    screen.value.slice(-1) !== "/" &&
+    screen.value !== ""
   )
     screen.value += "+";
 });
@@ -110,7 +111,8 @@ btnMinus.addEventListener("click", function (e) {
     screen.value.slice(-1) !== "%" &&
     screen.value.slice(-1) !== "-" &&
     screen.value.slice(-1) !== "*" &&
-    screen.value.slice(-1) !== "/"
+    screen.value.slice(-1) !== "/" &&
+    screen.value !== ""
   )
     screen.value += "-";
 });
@@ -121,7 +123,8 @@ btnMultiply.addEventListener("click", function (e) {
     screen.value.slice(-1) !== "%" &&
     screen.value.slice(-1) !== "-" &&
     screen.value.slice(-1) !== "*" &&
-    screen.value.slice(-1) !== "/"
+    screen.value.slice(-1) !== "/" &&
+    screen.value !== ""
   )
     screen.value += "*";
 });
@@ -133,7 +136,8 @@ btnDivide.addEventListener("click", function (e) {
     screen.value.slice(-1) !== "%" &&
     screen.value.slice(-1) !== "-" &&
     screen.value.slice(-1) !== "*" &&
-    screen.value.slice(-1) !== "/"
+    screen.value.slice(-1) !== "/" &&
+    screen.value !== ""
   )
     screen.value += "/";
 });
@@ -144,7 +148,8 @@ btnRemainder.addEventListener("click", function (e) {
     screen.value.slice(-1) !== "%" &&
     screen.value.slice(-1) !== "-" &&
     screen.value.slice(-1) !== "*" &&
-    screen.value.slice(-1) !== "/"
+    screen.value.slice(-1) !== "/" &&
+    screen.value !== ""
   )
     screen.value += "%";
 });
